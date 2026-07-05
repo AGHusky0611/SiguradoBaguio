@@ -257,3 +257,9 @@ Target completion: August to early October 2025.
 ---
 
 *SiguradoBaguio — Built for Baguio City. For the Smart City Baguio initiative and CDRRMO Baguio partnership.*
+
+---
+## To run the DockerFile
+
+docker build -t baguiosafe-web .
+docker run -p 3000:3000 baguiosafe-web
